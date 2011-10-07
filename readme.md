@@ -4,13 +4,18 @@ Starts Chromium browser in incognito mode with Tor.
 
 Tor must be configured and running before using the script.
 
-Steps to install
+### Steps to install
 
 1. Copy `secure-chromium.py` file to desired location
 2. Add executable permissions
 3. Create a symbolic link called `secure-chromium` to the script file and place the link at 
 `/usr/local/bin` (or any other directory on your path)
-4. Run the script by typing `secure-chromium` in your terminal
+4. Copy `secure-chromium.png` to `/usr/share/icons/hicolor/256x256/apps` or elsewhere.
+5. Copy `secure-chromium.desktop` to `~/.local/share/applications`. Open the file 
+   with text editor and make sure path to icon is correct.
+4. Run the script by typing `secure-chromium` in your terminal or by clicking the icon in your menu.
+
+
 
 > Copyright 2010-2011 Vilius Normantas <code@norma.lt>
 > 
